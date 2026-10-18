@@ -1,0 +1,4 @@
+interface:
+  display_name: "穿越机视频skill"
+  short_description: "规划有目标与节奏的穿越机镜头，检查运动净空、原生渲染证据与交付验收边界"
+  default_prompt: "使用 $fpv-video 规划穿越机视频，先提交航线与节奏方案供确认，再验证运动、原生渲染及交付证据。"
