@@ -6,8 +6,16 @@
 - 技能目录与调用名：`skills/fpv-video`、`$fpv-video`。
 - 核心入口：[SKILL.md](skills/fpv-video/SKILL.md)。
 - 公开过程案例：[长丰案例](examples/changfeng/case.md)，包含失败与未验收边界，不是已获用户认可的作品展示。
+- 同事分享：[长丰项目一页海报](media/changfeng-poster/poster-v1.1.0.png)（含仓库二维码）及[版权与来源](media/changfeng-poster/README.md)。
+- 成果视频：[长丰R5技术结果与公开状态](examples/changfeng/video-status.md)。原片尚未公开，不能在本仓库播放或下载。
 
-本次更新纳入长丰R5的原站材质核验、全场景非树审计、局部地面/法线修复、诊断阴影缓存及新增林带的全镜头原生重渲染方法。R5仅完成本地技术交付，正常速度音画与外观仍待人工验收；仓库不提供工程、图片或视频。详见[原生场景修复](skills/fpv-video/references/native-scene-repair.md)。另同步[视觉包装](skills/fpv-video/references/editorial-design.md)与[视频生视频研究](skills/fpv-video/references/video-to-video-consistency.md)，后者是固定版本的静态研究，不是已实跑执行器。
+本次更新纳入长丰R5的原站材质核验、全场景非树审计、局部地面/法线修复、诊断阴影缓存及新增林带的全镜头原生重渲染方法。R5仅完成本地技术交付，正常速度音画与外观仍待人工验收；仓库不提供原工程、项目实景图片或原视频。新附海报使用独立AI概念插图，明确标注“非长丰实景”。详见[原生场景修复](skills/fpv-video/references/native-scene-repair.md)与[公开分享](skills/fpv-video/references/public-sharing.md)。另同步[视觉包装](skills/fpv-video/references/editorial-design.md)与[视频生视频研究](skills/fpv-video/references/video-to-video-consistency.md)，后者是固定版本的静态研究，不是已实跑执行器。
+
+## 长丰案例分享海报
+
+海报中的技术数据来自既有R5交付，不是本次重新渲染或人工验收证明。可保留署名用于非商业同事交流；新海报文件依[单独媒体声明](media/changfeng-poster/LICENSE.md)，不改变代码与文档的MIT许可。
+
+![长丰项目FPV技能分享海报：AI概念示意，非长丰实景；技术成片待人工视听验收](media/changfeng-poster/poster-v1.1.0.png)
 
 ## 使用
 
@@ -30,7 +38,7 @@ python3 -m unittest discover -s skills/fpv-video/scripts -p 'test_*.py' -v
 
 ## 发布与授权范围
 
-MIT 仅适用于本仓库新编写的文档与代码。原长丰场景、源模型、NoAI 树、贴图、音乐、视频、原生工程与内部日志均未包含，不因本仓库授权而获得任何使用权。实际制作请使用自有或明确获授权素材，逐项记录来源和许可证；标为 CC0 的素材也需核对具体来源与许可范围。
+MIT 仅适用于本仓库新编写的文档与代码；新附海报PNG不适用MIT，其原创版式与文字编排依单独媒体声明仅供非商业技术交流。原长丰场景、源模型、NoAI 树、贴图、音乐、视频、原生工程与内部日志均未包含，不因本仓库授权而获得任何使用权。实际制作请使用自有或明确获授权素材，逐项记录来源和许可证；标为 CC0 的素材也需核对具体来源与许可范围。
 
 已阅读并记录 ETH-ASL、Gyroflow、BlenderPad 的固定版本与源码方法，见[GitHub 方法研究](skills/fpv-video/references/github-methods.md)。仅做方法学习，未安装运行或复制第三方实现，不能称这些外部系统已经在本地调试可用。
 

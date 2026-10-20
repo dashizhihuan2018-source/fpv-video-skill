@@ -21,6 +21,7 @@ description: 规划、制作或诊断建筑与场景的穿越机视频，覆盖�
 - 从开源项目研究 FPV 方法、筛选实现或记录检索证据：读 [references/github-motion-research.md](references/github-motion-research.md)。
 - DCC 集成、版本坑、原生观测、MRQ 与证据冻结：读 [references/native-verification.md](references/native-verification.md)。
 - 成片包装、人工验收与素材公开边界：读 [references/delivery.md](references/delivery.md)。
+- 海报、成果视频、链接二维码或公有Git同步：再读 [references/public-sharing.md](references/public-sharing.md)，分别核查媒体权利、脱敏范围、真实完成层级与访客可见状态。
 - 封面、字幕、转场、软件调色或生成式重制：读 [references/editorial-design.md](references/editorial-design.md)，先处理最近一次视觉否决及当前参考图。
 - 现有 FPV 视频转视频、跨镜头统一外观或筛选视频编辑项目：再读 [references/video-to-video-consistency.md](references/video-to-video-consistency.md)，分开验证原运动保持、段内时序和段间风格；研究候选不等于已实测执行器。
 - 黑材质、暗车棚、地面缺失或重复表面：读 [references/native-verification.md](references/native-verification.md) 的“画面缺陷回归”，定位原生对象后再修复；不要把后期提亮或成功编码当作修好。
