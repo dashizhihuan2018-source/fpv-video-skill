@@ -15,7 +15,7 @@
 
 技术演示，非正式验收作品。1920×1080 · 30fps · 922帧 · 约30.73秒；此版为有损分享压缩版，音轨保留，原片未改写。播放器不兼容时可[打开或下载MP4](https://github.com/dashizhihuan2018-source/fpv-video-skill/raw/refs/heads/main/media/changfeng/changfeng-r5-demo.mp4)。
 
-<video src="https://github.com/dashizhihuan2018-source/fpv-video-skill/raw/refs/heads/main/media/changfeng/changfeng-r5-demo.mp4" controls preload="metadata" width="960"></video>
+https://github.com/user-attachments/assets/59b0d548-94f7-4efa-b0c3-7ba8c73ee697
 
 配乐：Kinetic by Punch Deck | https://soundcloud.com/punch-deck
 
