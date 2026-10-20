@@ -7,6 +7,8 @@
 - 核心入口：[SKILL.md](skills/fpv-video/SKILL.md)。
 - 公开过程案例：[长丰案例](examples/changfeng/case.md)，包含失败与未验收边界，不是已获用户认可的作品展示。
 
+本次更新纳入长丰R5的原站材质核验、全场景非树审计、局部地面/法线修复、诊断阴影缓存及新增林带的全镜头原生重渲染方法。R5仅完成本地技术交付，正常速度音画与外观仍待人工验收；仓库不提供工程、图片或视频。详见[原生场景修复](skills/fpv-video/references/native-scene-repair.md)。另同步[视觉包装](skills/fpv-video/references/editorial-design.md)与[视频生视频研究](skills/fpv-video/references/video-to-video-consistency.md)，后者是固定版本的静态研究，不是已实跑执行器。
+
 ## 使用
 
 将 `skills/fpv-video` 文件夹安装到所用助手支持的技能目录，然后调用：
@@ -31,3 +33,5 @@ python3 -m unittest discover -s skills/fpv-video/scripts -p 'test_*.py' -v
 MIT 仅适用于本仓库新编写的文档与代码。原长丰场景、源模型、NoAI 树、贴图、音乐、视频、原生工程与内部日志均未包含，不因本仓库授权而获得任何使用权。实际制作请使用自有或明确获授权素材，逐项记录来源和许可证；标为 CC0 的素材也需核对具体来源与许可范围。
 
 已阅读并记录 ETH-ASL、Gyroflow、BlenderPad 的固定版本与源码方法，见[GitHub 方法研究](skills/fpv-video/references/github-methods.md)。仅做方法学习，未安装运行或复制第三方实现，不能称这些外部系统已经在本地调试可用。
+
+© 2026 Nankong 版权所有。本仓库既有原创文档和代码继续按MIT授权，不能将“仅供技术交流”的项目素材边界写成收回MIT商用权。未随包的项目与第三方素材不获新增许可；需要另行核实权利及用途。公开同步前应审核文件白名单、隐私模式、提交元数据和将推送的历史，不能只凭 `.gitignore` 判断安全。
